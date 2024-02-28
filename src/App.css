@@ -1,0 +1,19 @@
+:root {
+    --skeleton-white: #c4c4bf;
+    --skeleton-black: #010206;
+}
+body {
+    background: var(--skeleton-black);
+    color: var(--skeleton-white);
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app h1 {
+    font-size: 3rem;
+}
+#app img {
+    max-height: 11rem;
+}
